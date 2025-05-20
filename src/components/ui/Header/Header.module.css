@@ -1,0 +1,17 @@
+.containerHeather {
+    width: 100vw;
+    height: 8vh;
+    background: linear-gradient(90deg, #b8c1ec 0%, #f9fafb 100%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 2px 12px rgba(35, 41, 70, 0.08);
+    border-bottom: 2px solid #232946;
+}
+
+.containerTitleHeader {
+    margin-left: 4vw;
+    color: #232946;
+    font-size: 2rem;
+    font-weight: 700; 
+}

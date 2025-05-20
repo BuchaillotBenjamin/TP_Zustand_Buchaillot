@@ -1,0 +1,53 @@
+.containerPrincipalListTareas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2.5rem 1rem 1.5rem 1rem;
+    gap: 2rem;
+    min-height: 80vh;
+    background: linear-gradient(120deg, #d1d5db 0%, #b8c1ec 100%);
+}
+
+.containerTitleAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    color: #232946;
+}
+
+.containerTitleAndButton button {
+    border: none;
+    background: #232946;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.6em 1.4em;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(35, 41, 70, 0.08);
+    transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+
+.containerTitleAndButton button:hover {
+    background: #eebbc3;
+    color: #232946;
+    transform: translateY(-2px) scale(1.04);
+}
+
+.containerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.5rem 1rem;
+    background: #fff;
+    width: 85%;
+    min-height: 60vh;
+    max-height: 65vh;
+    overflow-y: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 16px rgba(35, 41, 70, 0.07);
+}
